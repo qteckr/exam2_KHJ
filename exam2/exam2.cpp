@@ -26,7 +26,7 @@ Cexam2App::Cexam2App()
 	// InitInstance에 모든 중요한 초기화 작업을 배치합니다.
 }
 
-
+// 주석테스트
 // 유일한 Cexam2App 개체입니다.
 
 Cexam2App theApp;
