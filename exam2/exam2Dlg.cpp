@@ -13,7 +13,6 @@
 
 
 // Cexam2Dlg 대화 상자
-// 주석수정합니다.
 
 
 Cexam2Dlg::Cexam2Dlg(CWnd* pParent /*=NULL*/)
