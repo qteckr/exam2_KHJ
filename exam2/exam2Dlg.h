@@ -4,7 +4,16 @@
 
 #pragma once
 #include "afxwin.h"
+#include "afxcmn.h"
 
+class Menu{
+public:
+	int price;
+	int coffee;
+	int water;
+	int milk;
+	int cnt;
+};
 
 // Cexam2Dlg 대화 상자
 class Cexam2Dlg : public CDialogEx
@@ -37,4 +46,13 @@ public:
 	afx_msg void OnBnClickedButton5();
 	CListBox m_listbox1;
 	CStatic m_Text1;
+	CListCtrl m_list;
+
+	int coffee;
+	int water;
+	int milk;
+
+	int sum;
+
+	void orderCheck(Menu* m);
 };
